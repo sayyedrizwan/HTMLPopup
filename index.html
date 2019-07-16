@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+    <html>
+    <head>
+        
+        <title>Rizwan Sayyed | Popup </title>  
+        
+        
+        <title> Wallpo</title>
+    
+        <link rel="stylesheet" href="main.css">
+        
+        <script>
+
+            function showPopup(newColor) {
+                var elem = document.getElementById('bg-modal');
+                elem.style.display = newColor;
+            }
+
+
+        </script>
+        
+        </head>
+        
+        <body style="background-color:black;">
+        
+            
+                <div class="row clearfix">
+                        
+                    <center>
+                        <a  onclick="showPopup('flex');"> <button class="buttonpopup">SHOW POPUP</button> </a>
+                    </center>
+
+                </div>
+        
+        
+            
+
+
+        <!--Popup Login Section -->
+        
+        <div id="bg-modal"> 
+
+            <div class="modal-contact" >
+                
+                 <img src="images/thumbs-up.png" height= "193px" width= "203px">
+                
+                <p> LIKED SO GIVE A THUMS UP </p>
+                
+                 <a onclick= "showPopup('none');"> <button class="buttonpopupclose">CLOSE POPUP</button> </a>
+                
+                
+            </div>
+
+        </div>
+            
+        </body>
+</html>
