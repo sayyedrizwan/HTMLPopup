@@ -4,6 +4,5 @@
 
 <br><br>
 
-<h6> Preview here </h6>
-
+<h5> Preview it here </h5>
 https://sayyedrizwan.github.io/HTMLPopup/
